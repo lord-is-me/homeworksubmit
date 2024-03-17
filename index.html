@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap5.3.0/css/bootstrap.rtl.min.css">
+    <script src="./bootstrap5.3.0/js/jquery-3.2.1.min.js"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="./bootstrap5.3.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./iconfont/iconfont.css">
+
+    <title>师专计科2班的作业提交</title>
+</head>
+
+<body>
+    <!-- 嗯，有人发现注释了！说明你是————
+         代码敲得很烂，非常丢人TwT，轻喷
+         都可以看，随便看！只要不外泄就行了。(●°u°●) 」
+         看到这里前端糕手的和我讨论一下呗(*^▽^*)
+     -->
+    <!-- 警告窗口 -->
+    <div class="modal fade warnModal" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">作业提交网站使用注意事项</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    1.请尽量使用电脑打开<br>
+                    2.本站只在计科2班传播，请不要外传(我做了好久的┭┮﹏┭┮) <br>
+                    3.请使用校园网提交，否则提交不了 <br>
+                    4.有bug通过wx向我反馈,感谢！<br>
+                    ———————————— <br>
+                    5.有什么好的建议一定要跟我提，比如装饰，功能什么的(Please!) <br>
+                    ————————————<br>
+                    <div class="editor">editor:Lord</div>
+                    <div class="verson">v-static 0.01</div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">滚！</button>
+                    <button type="button" class="btn  btn-primary" data-bs-dismiss="modal">Yes,sir</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 顶部栏 -->
+    <div class="top">
+        <span class="symbol">作业提交页面</span>
+    </div>
+    <!-- 侧边栏内容 -->
+    <div class="sidebar">
+        <div class="guideTitleFather">
+            <div class="guideTitle">作业导航</div>
+        </div>
+
+        <a href="#" class="xyg">徐永广<span class="iconfont icon-a-RightArrow"></span></a>
+        <div class="xygWeek">
+            <ul>
+                <li>
+                    第一周(已过期)
+                </li>
+                <li>
+                    第二周(已过期)
+                </li>
+                <li style="color:rgba(55, 55, 133, 0.701)">
+                    第三周(hot!)
+                </li>
+                <li>
+                    第四周(未开启)
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 下面是作业提交模块 -->
+
+    <div class="content">
+        <br>
+        <h1>面向对象程序设计实验作业 第三周</h1>
+        <HR style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" width="80%" color=#987cb9 SIZE=3>
+        作业要求：<br>
+        作业上交要求（要提交上面第1点的练习题共 2或3道题）： <br>
+        本次作业不用做成实验报告。<br>
+        用word的文档格式列出题目、完成的代码。所有题目放入同一个word文档。<br>
+        文档命名格式：写明“学号姓名(班级)基础回顾_20240313” <br>
+        <br>
+        <br>
+        <HR style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" width="80%" color=#987cb9 SIZE=3>
+        注：只能接受word文档
+
+        <form class="form" id="uploadForm" enctype="multipart/form-data">
+            <input type="file" name="wordFile" class="btn fileBtn">
+            <button class=" btn btn-outline-primary submitBtn">上传作业</button>
+            <div class="mask">目前不在开启时间</div>
+        </form>
+        <!-- 提交后弹窗  -->
+        <!-- 成功 -->
+
+        <a href="https://www.hhtjim.com/wp-content/uploads/2017/02/T-RexGame.html">玩个小游戏吧</a>
+        <div class="sign">版权归Load所有 <br>
+            v-status 0.01</div>
+    </div>
+
+
+
+    <script src=" https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./js/form-submit.js"></script>
+    <script src="./js/checkServer.js"></script>
+    <script src="./js/modal.js"></script>
+    <script src="./js/side.js"></script>
+    </script>
+</body>
+
+</html>

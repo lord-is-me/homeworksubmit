@@ -1,0 +1,23 @@
+{
+  "id": "4469700",
+  "name": "方向",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "39311617",
+      "name": "Down Arrow",
+      "font_class": "a-DownArrow",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "39311621",
+      "name": "Right Arrow",
+      "font_class": "a-RightArrow",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    }
+  ]
+}
