@@ -6,6 +6,7 @@ function checkServerAvailability() {
         })
         .catch((error) => {
             mask.style.display = `block`;
+            console.log(error)
         });
 }
 window.onload = function () {
