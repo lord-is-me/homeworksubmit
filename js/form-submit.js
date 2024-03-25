@@ -8,7 +8,7 @@ submitBtn.addEventListener(`click`, (e) => {
     const fileInput = document.querySelector('input[name="wordFile"]');
     formData.append('wordFile', fileInput.files[0]);
 
-    axios.post('http://10.255.5.211:3000/upload', formData, {
+    axios.post('http://10.242.98.255:3000/upload', formData, {
         headers: {
             'Content-Type': 'multipart/form-data'
         }
